@@ -1,0 +1,30 @@
+html{
+    margin: 0 auto;
+}
+#root{
+    margin:30px auto;
+    width: 80%;
+    padding: 20px;
+    border: 1px solid blue;
+    display: block;
+   
+}
+
+@mixin flexCenter($direction){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+$margin-auto: 0 auto;
+$button-color: rgb(18, 47, 214);
+$button-padding: 10px;
+
+header{
+    @include flexCenter(column);
+}
+
+
+
+
+
